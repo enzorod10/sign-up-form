@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="left">
+        <img src="./images/dance.jpeg" alt="picture of woman dancing with globe">
+        <div class="onPic">
+            <h1>DANSO</h1><img src="./images/logo.svg" alt="logo of woman dancing">
+        </div>
+        <div class="credit">
+            <p>Photo by <a href="https://unsplash.com/@sierragracephotography96">Sierra Koder</a></a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
+    </div>
+    <div class="right">
+        <h2>Experience a whole <i>new</i> world of dancing. The moves are <i>endless</i> and there's so much to explore.
+            A perspective on dancing, <i>revolutionized</i>. <br><br>Dance with the world.</h2>
+        <form action="/" method="GET">
+            <h3>Let's do this</h3>
+            <div>
+                <div>
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div>
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" required>
+                </div>
+                <div>
+                    <label for="phoneNumber">FIRST NAME</label>
+                    <input type="tel" id="phoneNumber" required>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" required>
+                    <div class="errorMessage"></div>
+                </div>
+                <div>
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+    </div>
+    <div class="farRightBox"></div>
+</body>
+</html>
